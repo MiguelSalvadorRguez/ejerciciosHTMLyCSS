@@ -1,0 +1,18 @@
+body{
+    background-color: burlywood
+}
+
+h1{
+    letter-spacing: 1rem;
+    font-family: Lobster
+}
+
+.intro{
+    margin: auto;
+    width: 35em;
+}
+
+@font-face{
+    font-family: "Lobster";
+    src: url("Objetos/lobster.woff2")
+}
