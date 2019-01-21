@@ -1,0 +1,60 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ejercicio1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<style type="text/css">
+ table{
+     
+     text-align: center;
+     
+}
+
+.primeratabla{
+    border: 2px solid red;
+    border-collapse: collapse;
+}
+
+.segundatabla{
+    border: 2px solid green;
+    border-collapse: separate;
+}
+
+.interna{
+    border:1px solid black;
+    
+
+}
+</style>
+<body>
+    <table class="primeratabla">
+        <tr>
+            <th scope="row" colspan="2" style="text-align: center">border-collapse:collapse</th>
+        </tr>
+    
+        <tr>
+            <td class="interna">Borde de tabla rojo</td>
+            <td class="interna">Borde de celda negro</td>
+        </tr>
+    </table>
+
+    <br/><br/>
+
+    <table class="segundatabla">
+            <tr>
+                <th scope="row" colspan="2" style="text-align: center">border-collapse:collapse</th>
+            </tr>
+        
+            <tr>
+                <td class="interna">Borde de tabla rojo</td>
+                <td class="interna">Borde de celda negro</td>
+            </tr>
+        </table>
+    
+</body>
+</html>
